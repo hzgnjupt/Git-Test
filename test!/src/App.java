@@ -39,6 +39,7 @@ public class App {
             robot.keyRelease(KeyEvent.VK_Q);
             robot.keyRelease(KeyEvent.VK_SHIFT);
         }
+        Sysout.out.println("Finish");
 
     }
 
