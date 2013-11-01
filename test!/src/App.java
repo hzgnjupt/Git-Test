@@ -12,7 +12,7 @@ public class App {
 
 		Robot robot = new Robot();
 		while (true) {
-			Thread.sleep(ran.nextInt(5) * 1000);
+			Thread.sleep(ran.nextInt(5) * 1000); 
 			robot.keyPress(KeyEvent.VK_5);
 			robot.keyRelease(KeyEvent.VK_5);
 			Thread.sleep(ran.nextInt(10) * 1000);
