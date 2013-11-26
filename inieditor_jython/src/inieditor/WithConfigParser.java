@@ -5,12 +5,12 @@ import org.python.core.PyString;
 import org.python.util.PythonInterpreter;
 
 /**
- * 通过jython调用Python的ConfigParser读写ini文件（缺陷：写文件的时候配置项顺序会乱）
+ * 通过jython调用Python的ConfigParser读写ini文件（缺陷：写文件的时候配置项顺序会乱，而且不会保留注释行）
  * 
  * @author hezhigang
  * 
  */
-public class Test {
+public class WithConfigParser {
 
     public static void main(String[] args) {
 
